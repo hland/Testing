@@ -1,0 +1,14 @@
+name: Test
+on:
+ pull_request:
+ push:
+        
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: |
+          echo "nanananana"
+
+      - uses: hland/reusable-workflows/.github/workflows/reusable.yml@main
