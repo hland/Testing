@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: test
         run: |
-          echo "nanananana"
+          echo "nanananana2"
   
   test-workflow-call:
      uses: hland/reusable-workflows/.github/workflows/reuse.yml@main
