@@ -10,3 +10,6 @@ jobs:
       - name: test
         run: |
           echo "nanananana"
+  
+  test-workflow-call:
+    uses: hland/reusable-workflows/.github/workflows/reusable.yml@main
