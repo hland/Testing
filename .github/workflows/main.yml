@@ -13,3 +13,4 @@ jobs:
   
   test-workflow-call:
      uses: hland/reusable-workflows/.github/workflows/reuse.yml@main
+     secrets: inherit
